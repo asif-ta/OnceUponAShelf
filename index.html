@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ONCE UPON A SHELF</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/cssReset.css">
+        <link rel="stylesheet" href="css/mainstyle.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="img/photo.png" alt="" class="mainImge">
+        <section class="secondPart">
+            <h1>ONCE UPON A SHELF</h1>
+            <img src="img/smallPhoto.png" alt="" class="smallImage">
+            <form action="www">
+                <h2>REGISTER</h2>
+                <h3>Don’t you have an account? <span>Create One</span></h3>
+                <section class="name">
+                    <div class="firstName">
+                        <label for="firstNameId">First Name</label>
+                        <input type="text" id="firstNameId" name="firstName" minlength="4" maxlength="20" required>
+                    </div>
+                    <div class="secondName">
+                        <label for="secondNameId">Second Name</label>
+                        <input type="text" id="secondNameId" name="secondName" minlength="4" maxlength="20" required>
+                    </div>
+                </section>
+                <section class="emailAndPass">
+                    <div class="email">
+                        <label for="emailId">Email</label>
+                        <input type="email" id="emailId" name="email" required>
+                    </div>
+                    <div class="password">
+                        <label for="passwordId">Password</label>
+                        <input type="password" id="passwordId" name="password" required>
+                    </div>
+                </section>
+                <section class="DobAndGender">
+                    <div class="dob">
+                        <label for="dobId">Date Of Birth</label>
+                        <input type="text" id="dobId">
+                    </div>
+                    <div class="gender">
+                        <label for="maleGenderId">Gender</label>
+                        <div>
+                            <input type="radio" name="gender" id="maleGenderId" checked>
+                            <label for="maleGenderId">MALE</label>
+                            <input type="radio" name="gender" id="femaleGenderId">
+                            <label for="femaleGenderId">FEMALE</label>
+                        </div>
+                    </div>
+                </section>
+                <section class="numbAndOTP">
+                    <div class="number">
+                        <label for="numberId">Phone Number</label>
+                        <input type="text" id="numberId" minlength="10" maxlength="14" required>
+                    </div>
+                    <div class="otp">
+                        <label for="otpId">OTP</label>
+                        <input type="text" id="otpId" minlength="6" maxlength="6" required >
+                    </div>
+                </section>
+                <button>LOG IN</button>
+            </form>
+        </section>
+    </body>
+</html>

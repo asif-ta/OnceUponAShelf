@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: "Alata", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+.mainImge{
+    width: 43.7083%;
+}
+.smallImage{
+    width: 100%;
+    display: none;
+    margin-bottom: 3.9375rem;
+}
+h1{
+    font-size: 5rem;
+    color: #B78A4D;
+    /* text-align: center; */
+    margin: 5rem 0 3.9375rem 0;
+}
+h2{
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+h3{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    align-self: flex-start;
+    margin: 0.78125rem 0 1.75rem 0;
+}
+h3 span{
+    color: #B78A4D;
+}
+label{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.secondPart{
+    width: 56.2917%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 730px;
+}
+form section > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input[type="text"]{
+    width: 21.5625rem;
+    height: 3.75rem;
+    background: rgba(183, 138, 77, 0.2);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+input[type="email"]{
+    width: 21.5625rem;
+    height: 3.75rem;
+    background: rgba(183, 138, 77, 0.2);
+    border: none;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+input[type="password"]{
+    width: 21.5625rem;
+    height: 3.75rem;
+    background: rgba(183, 138, 77, 0.2);
+    border: none;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+}
+input[type="radio"]{
+    appearance: none;
+    background-color: rgba(183, 138, 77, 0.2);
+    border-radius: 50%;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+input[type="radio"]:checked{
+    appearance: none;
+    background-color: rgba(183, 138, 77, 1);
+    box-shadow: 0 0 0 0.4rem rgba(183, 138, 77, 0.2);
+    border-radius: 50%;
+    width: 1.1875rem;
+    height: 1.1875rem;
+}
+.name{
+    width: 100%;
+    min-height: 6.9375rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+}
+.name #secondNameId{
+    width: 22.8125rem;
+}
+.emailAndPass{
+    width: 100%;
+    min-height: 6.9375rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+}
+.emailAndPass #emailId{
+    width: 23.5312rem;
+}
+.emailAndPass #passwordId{
+    width: 20.1562rem;
+}
+.DobAndGender{
+    width: 100%;
+    min-height: 6.9375rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+}
+.DobAndGender #dobId{
+    width: 25.8125rem;
+}
+.DobAndGender .gender{
+    width: 18rem;
+}
+.DobAndGender .gender div{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbAndOTP{
+    width: 100%;
+    min-height: 6.9375rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.71875rem;
+}
+.numbAndOTP #numberId{
+    width: 22.3125rem;
+}
+.numbAndOTP #otpId{
+    width: 21.0625rem;
+}
+button{
+    width: 11.8437rem;
+    height: 3.75rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #C9A779;
+    border: none;
+    border-radius: 0.5rem;
+    align-self: flex-end;
+}
+
+@media (max-width: 320px){
+
+    html{
+        font-size: 6px;
+    }
+    body{
+        padding: 0 2.875rem;
+    }
+    .mainImge{
+        width: 43.7083%;
+        display: none;
+    }
+    .smallImage{
+        width: 100%;
+        display: block;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 321px) and (max-width: 420px){
+
+    html{
+        font-size: 8px;
+    }
+    body{
+        padding: 0 2.875rem;
+    }
+    .mainImge{
+        width: 43.7083%;
+        display: none;
+    }
+    .smallImage{
+        width: 100%;
+        display: block;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 421px) and (max-width: 576px){
+
+    html{
+        font-size: 11px;
+    }
+    body{
+        padding: 0 2.875rem;
+    }
+    .mainImge{
+        width: 43.7083%;
+        display: none;
+    }
+    .smallImage{
+        width: 100%;
+        display: block;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){
+
+    html{
+        font-size: 15px;
+    }
+    body{
+        padding: 0 2.875rem;
+    }
+    h1{
+        font-size: 4.5rem;
+    }
+    .mainImge{
+        width: 43.7083%;
+        display: none;
+    }
+    .smallImage{
+        width: 100%;
+        display: block;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    html{
+        font-size: 15px;
+    }
+    body{
+        padding: 0 2.875rem;
+    }
+    .mainImge{
+        width: 43.7083%;
+        display: none;
+    }
+    .smallImage{
+        width: 100%;
+        display: block;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    html{
+        font-size: 13px;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2.875rem;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1440px){
+    html{
+        font-size: 15.5px;
+    }
+    .secondPart{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2.875rem;
+    }
+}
